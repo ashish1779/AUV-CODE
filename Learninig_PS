@@ -1,1 +1,50 @@
 #Working on this problem statement.
+ASME IIT ROORKEE CHAPTER 
+Date:- 3rd Oct, 2019
+
+AUTONOMOUS BOT :- 
+1. Navigation
+The aim of this task is to pass through a gate.
+Gate may be located anywhere
+A red pipe(flare) may be located anywhere from starting zone, before the gate. Bot has to avoid touching the red pipe.
+
+2. Target Acquisition
+(i) The aim of the task is to detect and acquire a target among a series of drums on side of arena , in the target zone.
+
+A target zone is defined by a green colored wall.
+(ii) (Gripper part) There are 4 colored drums in the arena. Place a block one the drum placed at 2nd position after blue drum.
+  
+3. Target Reacquisition
+ Furthermore, the bot has to leave the target zone, before it can attempt the Target Reacquisition task.  it needs to reacquire the target and pick up the block that it dropped in the Target acquisition task.This task does not have to be attempted immediately after Target Acquisition task, other tasks may be attempted in between.
+4. Localization
+The aim of this task is to localize on a yellow pipe(flare). There are two yellow pipes in the arena, only one yellow pipe hold red ball on it. These flare could be located anywhere within the main arena. The bot should locate and bump a pipe causing the ball on the pipe to drop out. The pipe will be yellow in color.
+
+
+5. Bonus Task
+Back to the starting zone which was a black wall. 
+
+
+
+Work division:- 
+All except (identifying drums and place block, pick block ) 	        : ISHAN  (Khushi,Tanya)
+Gripper (identify drum,where is block, pick and place)	 	            : ASHISH (Rohith)
+Controlling (PID/Fuzzy logic controller)			                        : SHUBHAM (Madhukar,Boby)
+Power distribution (PCB)			                                         : ASHISH & SHUBHAM (Madhukar,Boby)
+Making simple bot (Gripper 3d printed with 2 servo)                   : Mayur(Tammana)
+
+
+Reference:- 
+Self Driving Car (traffic signal and decision making)
+Python + OpenCV Neural Network + Haar-Cascade Classifiers
+https://www.youtube.com/watch?v=BBwEF6WBUQs
+
+https://github.com/hamuchiwa/AutoRCCar
+
+https://zhengludwig.wordpress.com/projects/self-driving-rc-car/
+Path following, real-time, embedded fuzzy control of a mobile platform wheeled mobile robot
+https://ieeexplore.ieee.org/document/4636158
+
+Gripper
+http://airccse.org/journal/avc/papers/2315avc02.pdf
+http://www.iraj.in/journal/journal_file/journal_pdf/3-24-139087678821-26.pdf
+
